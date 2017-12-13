@@ -12,9 +12,9 @@
 '''
 
 import tensorflow as tf
-from module import Module
-import variables
-import activations
+from .module import Module
+from . import variables
+from . import activations
 
 class Linear(Module):
     '''

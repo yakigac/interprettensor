@@ -12,10 +12,10 @@
 '''
 
 import tensorflow as tf
-from module import Module
-import variables
+from . import Module
+from . import variables
 import pdb
-import activations
+from . import activations
 
 from math import ceil
 
